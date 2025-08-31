@@ -17,6 +17,8 @@ body{
     background-color: lightblue;
 }
 
+#hero img{width: 70%;}
+
 #hero{
     background-color: var(--cor1);
     border-radius: 0 0 10% 10%;
@@ -24,20 +26,19 @@ body{
     color: var(--cor3);
     font-family: cursive;
     font-size: 80%;
-    margin-bottom: 10%;
-    
 }
-
-#hero h1{
-    padding: 3%;
+#hero h3{
+    font-size: 80%;
+    margin: 1%;
+    padding-bottom: 2%;
 }
 
 .container1{
     background-color: var(--cor2);
-    margin: 1%;
+    margin: 5% 1% 1%;
     border-radius: 10%;
     padding: 1%;
-    box-shadow: 2px 5px 5px teal;
+    box-shadow: 50p teal;
 }
 
 /* PARA QUEM É */
@@ -137,7 +138,13 @@ body{
 }
 
 #comunidade li{
-    color: teal;
+    color: white;
+    background-color: teal;
+    margin: 1% 0 1%;
+    border-radius: 20px;
+    font-size: 62%;
+    padding: 1%;
+    text-align: left;
 }
 
 /* botões */
