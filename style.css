@@ -20,7 +20,8 @@ body{
 #hero img{width: 70%;}
 
 #hero{
-    background-color: rgb(28, 28, 100);
+    background-image: url(imagens/estrelas.jpg);
+    background-size: cover;
     border-radius: 0 0 10% 10%;
     text-align: center;
     color: var(--cor3);
