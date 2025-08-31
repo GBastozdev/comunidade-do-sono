@@ -65,7 +65,7 @@ body{
 }
 
 #paraqueme li{
-    font-size: ;
+    font-size: 100%;
     margin: 1%;
     padding: 1%;
     background-color: rgb(28, 28, 100);
@@ -96,7 +96,6 @@ body{
 #paraquemnaoe ul{
     list-style: none;
     padding-left: 0;
-    font-size: 75%;
     text-align: left;
     line-height: 20px;
     color: rgb(57, 62, 94);
@@ -106,6 +105,7 @@ body{
 #paraquemnaoe li{
     margin: 1%;
     padding: 1%;
+    font-size: 75%;
     
 }
 
@@ -171,6 +171,23 @@ a:hover{
 
 }
 
+
+#Valor{
+    color: rgb(28, 28, 100);;
+    text-align: center;
+    background-color: white;
+    margin: 5% 1% 1%;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 5px 5px 10px rgb(28, 28, 100);
+}
+
+#Valor h2{
+    margin-bottom: 2%;
+}
+#Valor strong{
+    color: red;
+}
 footer{
     color: white;
     background-color:  rgb(28, 28, 100);
