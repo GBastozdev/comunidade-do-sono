@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: lightblue;
+}
+.container{
+    margin: 3%;
+    width: auto;
+    border-radius: 10px;
+    padding: 5%;
+    b
+
+}
+
+
+#hero{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 80%;
+    margin-top: -
+}
+
+#paraqueme{
+    color: white
+}
+
+#paraqueme h2{
+    font-size: 30px;
+    text-align: center;
+}
+#paraqueme h3{
+    font-size: 20px;
+    text-align: center;
+}
+#paraqueme ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+#paraquemnaoe{
+    color: white
+}
+
+#paraquemnaoe h2{
+    font-size: 30px;
+    text-align: center;
+}
+#paraquemnaoe h3{
+    font-size: 20px;
+    text-align: center;
+}
+#paraquemnaoe ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    
+}
+
+#comunidade h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#comunidade #p1,#p2, #p3, #p4{
+    color: white;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#comunidade ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+#comunidade li{
+    color: white;
+}
