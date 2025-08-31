@@ -1,3 +1,11 @@
+
+:root{
+    --cor1: teal;
+    --cor2: rgba(236, 222, 140, 0.562);
+    --cor3: white;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,26 +16,34 @@
 body{
     background-color: lightblue;
 }
-.container{
-    margin: 3%;
-    width: auto;
-    border-radius: 10px;
-    padding: 5%;
-    b
-
-}
-
 
 #hero{
+    background-color: var(--cor1);
+    border-radius: 0 0 10% 10%;
     text-align: center;
-    color: white;
+    color: var(--cor3);
     font-family: cursive;
     font-size: 80%;
-    margin-top: -
+    margin-bottom: 10%;
+    
 }
 
+#hero h1{
+    padding: 3%;
+}
+
+.container1{
+    background-color: var(--cor2);
+    margin: 1%;
+    border-radius: 10%;
+    padding: 1%;
+    box-shadow: 2px 5px 5px teal;
+}
+
+/* PARA QUEM É */
+
 #paraqueme{
-    color: white
+    color: teal;
 }
 
 #paraqueme h2{
@@ -35,17 +51,34 @@ body{
     text-align: center;
 }
 #paraqueme h3{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 #paraqueme ul{
     list-style: none;
     padding-left: 0;
-    
+    font-size: 75%;
+    text-align: left;
+    line-height: 20px;
+    color: teal;
+    border: 1px solid #ccc;
 }
 
+#paraqueme li{
+    font-size: ;
+    margin: 1%;
+    padding: 1%;
+}
+#paraqueme p{
+    font-size: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+/* PARA QUEM NÃO É */
+
 #paraquemnaoe{
-    color: white
+    color: teal;
 }
 
 #paraquemnaoe h2{
@@ -53,27 +86,48 @@ body{
     text-align: center;
 }
 #paraquemnaoe h3{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 #paraquemnaoe ul{
     list-style: none;
     padding-left: 0;
+    font-size: 75%;
     text-align: left;
+    line-height: 20px;
+    color: teal;
+    border: 1px solid #ccc;
+}
+
+#paraquemnaoe li{
+    font-size: ;
+    margin: 1%;
+    padding: 1%;
     
 }
 
+
+.container2{
+    background-color: var(--cor2);
+    margin: 1%;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+/* COMUNIDADE*/
+
 #comunidade h2{
-    color: white;
+    color: var(--cor1);
     font-size: 30px;
     text-align: center;
 }
 
 #comunidade #p1,#p2, #p3, #p4{
-    color: white;
+    color: teal;
     padding: 5px 0;
     font-size: 15px;
     font-weight: 400;
+    text-align: center;
 }
 
 #comunidade ul{
@@ -83,5 +137,34 @@ body{
 }
 
 #comunidade li{
+    color: teal;
+}
+
+/* botões */
+
+a{
+   display: block;
+   width: max-content;
+   margin: 10px auto;
+   padding: 12px 20px;
+   border-radius: 999px;
+   background-color: #1fb335;
+   color: #fff;
+   font-weight: 700;
+   box-shadow: 2px 2px 2px rgb(27, 126, 2);
+   text-decoration: none;
+}
+
+a:hover{
+   color: black;
+   background-color: green
+
+}
+
+footer{
     color: white;
+    background-color: teal;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+    padding: 1%;
 }
