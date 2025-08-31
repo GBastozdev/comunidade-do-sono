@@ -20,7 +20,7 @@ body{
 #hero img{width: 70%;}
 
 #hero{
-    background-color: var(--cor1);
+    background-color: rgb(28, 28, 100);
     border-radius: 0 0 10% 10%;
     text-align: center;
     color: var(--cor3);
@@ -34,7 +34,7 @@ body{
 }
 
 .container1{
-    background-color: var(--cor2);
+    background-color: beige;
     margin: 5% 1% 1%;
     border-radius: 10%;
     padding: 1%;
@@ -62,7 +62,7 @@ body{
     text-align: left;
     line-height: 20px;
     color: teal;
-    border: 1px solid #ccc;
+
 }
 
 #paraqueme li{
@@ -97,7 +97,7 @@ body{
     text-align: left;
     line-height: 20px;
     color: teal;
-    border: 1px solid #ccc;
+  
 }
 
 #paraquemnaoe li{
@@ -109,7 +109,7 @@ body{
 
 
 .container2{
-    background-color: var(--cor2);
+    background-color: beige;
     margin: 1%;
     border-radius: 10%;
     padding: 1%;
@@ -142,7 +142,7 @@ body{
     background-color: teal;
     margin: 1% 0 1%;
     border-radius: 20px;
-    font-size: 62%;
+    font-size: 6%;
     padding: 1%;
     text-align: left;
 }
